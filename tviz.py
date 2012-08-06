@@ -1,5 +1,5 @@
 '''
-trajectory.py
+tviz.py
 
 Visualize a trajectory from a given set of 3D coordinates.
 '''
