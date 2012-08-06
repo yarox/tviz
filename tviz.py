@@ -1,11 +1,8 @@
 '''
 trajectory.py
 
-Draw a trajectory from a given set of 3D coordinates.
+Visualize a trajectory from a given set of 3D coordinates.
 '''
-
-# TODO: Dibujar un plano base.
-# TODO: implementarlo como plugin.
 
 from mathutils import Vector
 import bpy
@@ -56,7 +53,8 @@ def draw_trajectory(points, radius=0.075, type='POLY'):
 
 if __name__ == '__main__':
     # Load the point list
-    points = load_points('/Users/adri/Documents/Sandbox/tviz/data.txt')
+    source = '/full/path/to/data.txt'
+    points = load_points(source)
     
     # Move and scale the original points
     pivot = 0
